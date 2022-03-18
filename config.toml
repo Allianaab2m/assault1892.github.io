@@ -14,7 +14,7 @@ paginate = 20
 # 自己紹介
 [Author]
     name = "あさると"
-    bio = "PAYDAY2とVRChatをあそんでます"
+    bio = "PAYDAY2とVRChatを主に遊んでいます / フロントエンドをたまに触る"
     avatar = "img/avatar.png"
 
 [Params]
@@ -30,6 +30,11 @@ paginate = 20
 [Params.style.vars]
   highlightColor = "#6495ed"
 
+[Params.logo]
+  image = "img/Avatar.png"
+  title = "/home/assault"
+  subtitle = "雑記、翻訳多め | 気が向いた時にレビューっぽい物を書きます"
+
 # SNS等のユーザー名
 [Params.widgets.social]
   twitter = "SzlyNe_"
@@ -39,4 +44,4 @@ paginate = 20
     home = "right"
     list = "right"
     single = "right"
-    widgets = ["search", "recent", "categories", "taglist", "social"]
+    widgets = ["recent", "categories", "taglist", "social"]

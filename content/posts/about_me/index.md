@@ -62,3 +62,16 @@ menu: main
     - 一時期 WSL2 環境を建て、そこで Neovim を使用していましたが Windows 再セットアップに伴い VSCode に帰ってきました。
   - Audio: REAPER, VocalShifter, WaveTone
   - Video: Aviutl, Adobe Premiere Pro, Adobe After Effects
+
+## 各種 ID
+
+- SNS
+  - Discord: `Assault#1892`
+  - [Twitter](https://twitter.com/SzlyNe_)
+  - [YouTube](https://www.youtube.com/channel/UC2_oHHOyt4-eFFea-2s8k5g)
+  - [VRChat](https://vrchat.com/home/user/usr_9dec4a38-a8e0-4b70-bd26-613c5d2ca9cf)
+  - [Speedrun.com](https://www.speedrun.com/user/Assault1892) | 実は `Car Shop: Any Difficulty Solo - Any%` で世界 43 位です。
+- Game
+  - [Steam](https://steamcommunity.com/id/assault9807/)
+  - Ubisoft Connect: `Assault.1892`
+  - Nintendo Switch: `SW-3107-8528-0121`

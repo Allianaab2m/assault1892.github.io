@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://assault-8448.github.iositemap.xml
+Sitemap: https://assault1892.github.iositemap.xml

@@ -31,7 +31,7 @@ paginate = 20
   highlightColor = "#6495ed"
 
 [Params.logo]
-  image = "img/Avatar.png"
+  logo = false
   title = "/home/assault"
   subtitle = "雑記、翻訳多め | 気が向いた時にレビューっぽい物を書きます"
 

@@ -8,7 +8,6 @@ enableRobotsTXT = true
 
 # ブログのタイトル
 title = "/home/assault"
-
 theme = "mainroad"
 paginate = 20
 
@@ -19,6 +18,7 @@ paginate = 20
     avatar = "img/avatar.png"
 
 [Params]
+    description = "なんか色々書いてます 基本的に翻訳多め たまに何かしらのレビューっぽい物を書く"
     customCSS = ["css/custom.css"]
     copyright = "Assault"
     readmore = true

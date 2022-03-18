@@ -1,0 +1,310 @@
+<!doctype html><html class=no-js lang=ja>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<title>古いバージョンのPAYDAY 2を遊ぶ方法(マルチプレイヤー対応!) - /home/assault</title>
+<script>(function(a,b){a[b]=a[b].replace("no-js","js")})(document.documentElement,"className")</script>
+<meta name=description content="古いバージョンのPAYDAY 2を遊ぶ方法について">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="古いバージョンのPAYDAY 2を遊ぶ方法(マルチプレイヤー対応!)">
+<meta name=twitter:description content="古いバージョンのPAYDAY 2を遊ぶ方法について">
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link rel=dns-prefetch href=//fonts.googleapis.com>
+<link rel=dns-prefetch href=//fonts.gstatic.com>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+<link rel=stylesheet href=/css/style.css>
+<link rel=stylesheet href=/css/custom.css>
+<link rel="shortcut icon" href=/favicon.ico>
+</head>
+<body class=body>
+<div class="container container--outer">
+<header class=header>
+<div class="container header__container">
+<div class=logo>
+<a class=logo__link href=/ title=/home/assault rel=home>
+<div class="logo__item logo__text">
+<div class=logo__title>/home/assault</div>
+</div>
+</a>
+</div>
+<nav class=menu>
+<button class=menu__btn aria-haspopup=true aria-expanded=false tabindex=0>
+<span class=menu__btn-title tabindex=-1>メニュー</span>
+</button>
+<ul class=menu__list>
+<li class=menu__item>
+<a class=menu__link href=/posts/about_me/>
+<span class=menu__text>About Me</span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<div class="wrapper flex">
+<div class=primary>
+<main class=main role=main>
+<article class=post>
+<header class=post__header>
+<h1 class=post__title>古いバージョンのPAYDAY 2を遊ぶ方法(マルチプレイヤー対応!)</h1>
+<p class=post__lead>元ページ: https://steamcommunity.com/sharedfiles/filedetails/?id=2185438382</p>
+<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2022-03-18T00:00:00Z>March 18, 2022</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/%E7%BF%BB%E8%A8%B3/ rel=category>翻訳</a>, <a class=meta__link href=/categories/payday-2/ rel=category>PAYDAY 2</a>
+</span>
+</div></div>
+</header><div class="content post__content clearfix">
+<h1 id=2021古いバージョンの-payday-を遊ぶ方法マルチプレイヤー付き>[2021]古いバージョンの PAYDAY を遊ぶ方法（マルチプレイヤー付き）</h1>
+<h3 id=タイムマシンに乗って遠い昔のpayday-2を遊んでみたいoverkill-が最高難易度だった頃を見てみたいそれとも昔の-one-down-を体験してみたいワンクリックで全て叶いますbr私が過ぎ去ってしまった時間への入り口となりましょう悲しい事にsalem-氏のガイドが使えなくなってしまったため新しいガイドを用意します>タイムマシンに乗って、遠い昔の「PAYDAY 2」を遊んでみたい？Overkill が最高難易度だった頃を見てみたい？それとも昔の One Down を体験してみたい？ワンクリックで全て叶います。私が、過ぎ去ってしまった時間への入り口となりましょう。悲しい事に、Salem 氏のガイドが使えなくなってしまったため、新しいガイドを用意します。</h3>
+<h2 id=必要なもの>必要なもの</h2>
+<ol>
+<li>正規品の PAYDAY 2。海賊版では動作<strong>しません！</strong></li>
+<li>SteamRE DepotDownloader。<a href=https://github.com/SteamRE/DepotDownloader/releases>GitHub</a>から入手できます。</li>
+<li>.NET Core Runtime SDK。<a href=https://dotnet.microsoft.com/download/dotnet/5.0>Microsoft 公式ページ</a>から入手できます。</li>
+</ol>
+<p><strong>これで準備完了です！</strong></p>
+<h2 id=バージョンの確認>バージョンの確認</h2>
+<p>PAYDAY 2 の全てのバージョンか、ゲーム全体をダウンロードするには、Manifest ID が必要です。<br>
+この ID は、ダウンロードしたいゲームを Steam に伝えるのに必要なモノです。<br>
+PAYDAY 2 の Manifest ID は<a href="https://docs.google.com/spreadsheets/d/1WKMjyTeXBwHxq7UeuS_qys8m-CWIgQucNhckkh7xtm0/edit#gid=0">スプレッドシート</a>から確認できます。<br>
+Update 134.1 以降の Manifest ID は自分で調べる必要があります。<br>
+もし、完全な Manifest ID リストへのリンクをお持ちの方が居たらコメント欄で教えてください！</p>
+<p>どのバージョンをダウンロードするべきなのか分からない？<br>
+PAYDAY Wiki に PAYDAY 2 の更新履歴が確認できます。<br>
+<a href=https://payday.fandom.com/wiki/PC_update_history_(Payday_2)>ここ</a>に更新履歴等があります。ダウンロードするバージョンを決めるのに役立つかもしれません。</p>
+<h2 id=注意事項>注意事項</h2>
+<h3 id=steam-のアップデートに注意><strong>Steam のアップデートに注意！</strong></h3>
+<p>誰もが Steam が勝手に「古いものだから」と消したファイルの再ダウンロードに時間を費やしたくないでしょう。<br>
+このような悲劇を防ぐために、オフラインモードの Steam で PAYDAY 2 を起動するか、Steam ではなく exe ファイルを直接実行したりショートカットを作ってそこから起動する事を推奨します。</p>
+<p>安全のため、旧バージョンを現行バージョンと<strong>違う</strong>ディレクトリにインストールする事を推奨します。<br>
+こうすることで、Steam 経由で PAYDAY 2 を起動すると常に最新版が起動するため、自動更新を防ぐための全ての手順を省略する事が出来ます。<br>
+ただし、セーブファイルのバックアップとクラウドセーブの無効化は必要です。</p>
+<h3 id=セーブデータをバックアップしよう><strong>セーブデータをバックアップしよう</strong></h3>
+<p>セーブファイルを削除するかわりに、AppData 及び userdata ディレクトリから全てのセーブファイルをバックアップし、進行状況を失わないようにすることもできます。<br>
+ブーストと武器を AI から外し、スーツとグローブを外し、武器を全て売り、Armorer 等の初期から存在する Perk Deck を装備すれば、現行バージョンからデータを引き継ぐ事ができ、レベルやお金も引き継げる可能性があります。<br>
+しかし、ダウンロードしたバージョンで対応する最高値よりも高い Infamy ランク等、当時と比べて未来のモノを所持しているとデータがロードされなくなってしまいます。</p>
+<h3 id=金庫><strong>金庫</strong></h3>
+<p>旧バージョンの金庫やドリルがあったとしても、入手する事は出来ません。<br>
+これらのドロップは Steam のサーバーで処理されます。<br>
+スキンのドロップ自体はバージョンに関係なく、今まで通り毎日貰えます。<br>
+これらのカードドロップは、ただの無地のカードとして表示されるか、ゲームがクラッシュする可能性があります。<br>
+このような場合は、Steam の通知を確認してください。新しいスキンを入手した場合はゲームを再起動する必要があります。<br>
+クラッシュは 1 日 1 回だけで、1 回発生すればその後はクラッシュしなくなります。</p>
+<h3 id=mod><strong>Mod</strong></h3>
+<p>古い BLT フックと古い Mod があれば、動作する可能性はあります。<br>
+現行バージョンと現行の BLT フック用に開発された Mod は互換性がなく、動作しません。</p>
+<h3 id=バグバグバグ><strong>バグ、バグ、バグ</strong></h3>
+<p>そう簡単には古いバージョンを動かせません。<br>
+コメント欄には、問題に遭遇してしまった人たちのコメントが無数にあります。<br>
+問題点や修正点に関してはこのガイドの更に下に記載されています。</p>
+<h3 id=マルチプレイ><strong>マルチプレイ</strong></h3>
+<p>PAYDAY 2 は P2P 通信であるため、特別な操作なく他のプレイヤーと遊ぶ事が出来ます。<br>
+ロビーを作成するだけで、Crime.net オンラインを閲覧しているプレイヤー全てに見えるようになります。</p>
+<h2 id=manifest-のダウンロードとインストール>Manifest のダウンロードとインストール</h2>
+<ol>
+<li>DepotDownloader を任意の場所に展開する。</li>
+<li>フォルダ内で Shift + 右クリックし、「PowerShell ウィンドウをここで開く(S)」をクリックする。</li>
+<li>「cmd」と入力し、Enter キーを押す。</li>
+<li>次のコマンドを入力する:</li>
+</ol>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cmd data-lang=cmd>dotnet DepotDownloader.dll -app 218620 -depot 218621 -manifest {見つけたManifest ID} -username {Steamのユーザーネーム} -password {Steamのパスワード}
+</code></pre></div><ol start=5>
+<li>Enter キーを押す。</li>
+<li>E メールに送られたコードでログインを承認する必要がある場合があります。<br>
+その場合はコードをコピーして PowerShell に貼り付け、Enter キーを押してください。</li>
+<li>DepotDownloader が Manifest のダウンロードを開始しますが、少し時間がかかります。<br>
+ダウンロードが止まってるように見える事があるかもしれませんが、その際はウィンドウに何か入力してみてください。<br>
+入力ができない場合はダウンロードが進行中です。<br>
+入力できてしまったり、クラッシュした場合は手順 1 から 6 までやり直してください。
+進行状況は自動的に保存されます。Manifest を半分までダウンロードし終わった場合は残り半分からダウンロードが再開されます。<br>
+(訳注: 訳正しいか不明;修正希望)</li>
+<li>ダウンロードが完了したら、DepotDownloader と同じディレクトリにある「depots」ディレクトリ内に、ダウンロードしたファイルが格納されています。</li>
+</ol>
+<h2 id=グラインド回避>グラインド回避</h2>
+<p>昔の PAYDAY 2 のような緩慢なレベルカーブを進まず、一気に最高進行度まで行きたいですか？<br>
+フレンドがいるいないに関わらず、旧バージョンを 40-50 時間以上ひたすらプレイするつもりはなく、お試し気分で見てみたいだけなら、大量のお金とレベル 100 をすぐに得て遊ぶほうが良いでしょう。</p>
+<p>なお、この方法は Infamy が実装されていないバージョンでは使えません。デフォルトで Infamy 5 にされてしまうからです。</p>
+<ol>
+<li>Classic Heist Reborn をダウンロードする。</li>
+<li>現行バージョンに Classic Heist Reborn をインストールし、起動する。</li>
+<li>オプション → Advanced と移動し、「Max Progression」にチェックを入れる。</li>
+<li>ゲームを終了する。</li>
+<li>セーブファイルの場所に移動する。</li>
+<li>Classic Heisting のセーブファイルを探す。</li>
+<li>save098.sav にリネームする。</li>
+</ol>
+<p>次に古いビルドを起動すると、リネームしたセーブファイルが読み出され、10 億の現金と 100 億の海外口座、120 スキルポイント、Infamy 5、10 個の各武器 Mod が得られます。<br>
+現行バージョンのセーブファイルを読み出させようとする手間を省けるため、この方法を推奨します。</p>
+<h2 id=トラブルシューティング>トラブルシューティング</h2>
+<p>何か問題が起きた場合の解決策を置いておきます。</p>
+<h3 id=起動時にゲームがクラッシュするpress-any-keyでフリーズする>起動時にゲームがクラッシュする/「Press Any Key」でフリーズする</h3>
+<ul>
+<li><code>AppData > Local > PAYDAY 2</code> と <code>Steam > userdata > (あなたのID) > 218620 > remote</code> からすべてのファイルと renderer_settings.xml を削除しましたか？</li>
+</ul>
+<h4 id=削除しました>削除しました。</h4>
+<ul>
+<li>Steam のクラウドセーブは無効になっていますか？<br>
+有効になっている場合は、ライブラリに移動し PAYDAY 2 を右クリックしてプロパティに移動し、<br>
+PAYDAY 2 がクラウドセーブを使用するかどうかのチェックボックスを外してください。</li>
+</ul>
+<h4 id=まだ上手く動きません>まだ上手く動きません。</h4>
+<ul>
+<li>remote とセーブファイルを完全に削除して、新しく空のフォルダを作成してみてください。</li>
+</ul>
+<h3 id=何をやってもpress-any-keyの先に進めません>何をやっても「Press Any Key」の先に進めません。</h3>
+<ul>
+<li>唯一の解決策は、新しく Steam アカウントを作成し、そのアカウントに対し PAYDAY 2 を共有する事です。これは Steam 側の問題です。</li>
+</ul>
+<h3 id=助けてポップアップでthe-framework-microsoftnetcoreapp-version-500-was-not-foundと言われるんだ>助けて、ポップアップで「The framework &lsquo;Microsoft.NETCore.App&rsquo;, version &lsquo;5.0.0&rsquo; was not found」と言われるんだ</h3>
+<ul>
+<li>ガイドのリンクから .NET 5 をダウンロードし、インストールする必要があります。</li>
+</ul>
+<h3 id=exe-が起動しないぞ>.exe が起動しないぞ！</h3>
+<ul>
+<li>管理者権限で実行してください。depots フォルダにある場合は別のフォルダに移動してください。<br>
+それでもダメな場合は現行バージョンの PAYDAY 2 がインストールされてるハードドライブとは別のドライブに移動させてください。</li>
+</ul>
+<h2 id=faq>FAQ</h2>
+<ul>
+<li>
+<p>Classic Heist Reborn のセーブファイルを使おうとするとクラッシュします。何が原因ですか？</p>
+<ul>
+<li>Classic Heist Reborn は Update 24 以降に実装された Infamy を割り当てるため、 Update 24 以降からしか使えません。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li>
+<p>PAYDAY 2 の最初期バージョンをインストールし、友達とマルチプレイをしていたのですが、ミッションが終わるたびに私のゲームがクラッシュするか、両者ともゲームがフリーズしてしまいます。<br>
+これはゲームのバグですか？それとも何か解決策はありますか？</p>
+<ul>
+<li>最初期バージョンはカードドロップ画面でフリーズするバグが存在したため、 Update 1 が同日にロールアウトされました。<br>
+Update 1 は様々なバグを修正したバージョンであるため、インストールして損はありません。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li>
+<p>どうすれば現行バージョンの PAYDAY 2 に戻せますか？</p>
+<ul>
+<li>ゲームファイルの整合性チェックをするか、普通に実行すれば最新バージョンにアップデートされるはずです。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li>
+<p>ゲームファイルを全てダウンロードすることなく、特定のバージョンにアップデート可能でしょうか？<br>
+（例: 最初期バージョンから Armored Transport アップデートまで）<br>
+また、（ちょっと変ですが）強盗の最後に金庫のような古い報酬を得る事は可能ですか？</p>
+<ul>
+<li>悲しい事に、毎回 Manifest 全体をダウンロードする必要があります。</li>
+<li>また、金庫はゲームではなく Steam で管理されているため、取得できません。<br>
+古いバージョンでも毎日スキンを得る事は出来ますが、スキンのあるカードを選ぶとベタ塗り表示になるか或いはゲームがクラッシュします。<br>
+それでもスキンを得る事は可能です。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li>PRO JOB が存在した頃まで遡れますか？
+<ul>
+<li>なんなら最初期の「発見リスクバー」があり、武器のステータスなんて存在せず当然 Death Wish もなかった頃まで遡れます。
+<ul>
+<li>いいね！</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li>一緒に遊びたいのに、友達は誰も戻りたがらないんだ&mldr;
+<ul>
+<li>PAYDAY 2 Discord や r/paydaytheheist で一緒に遊んでくれる人を見つけられるかもしれません。<br>
+また、フォーラムの Safe House Lounge で聞いてみるのもいいでしょう。</li>
+</ul>
+</li>
+</ul>
+</div>
+</article>
+</main>
+<div class="authorbox clearfix">
+<figure class=authorbox__avatar>
+<img alt="あさると avatar" src=/img/avatar.png class=avatar height=90 width=90>
+</figure>
+<div class=authorbox__header>
+<span class=authorbox__name>あさるとについて</span>
+</div>
+<div class=authorbox__description>
+PAYDAY2とVRChatをあそんでます
+</div>
+</div>
+</div>
+<aside class=sidebar><div class="widget-search widget">
+<form class=widget-search__form role=search method=get action=https://google.com/search>
+<label>
+<input class=widget-search__field type=search placeholder=検索… name=q aria-label=検索…>
+</label>
+<input class=widget-search__submit type=submit value=Search>
+<input type=hidden name=sitesearch value=https://assault1892.github.io>
+</form>
+</div>
+<div class="widget-recent widget">
+<h4 class=widget__title>最近の投稿</h4>
+<div class=widget__content>
+<ul class=widget__list>
+<li class=widget__item><a class=widget__link href=/posts/about_me/>About Me</a></li>
+<li class=widget__item><a class=widget__link href=/posts/payday2/payday2_anticheat_guide/>PAYDAY 2のアンチチートはどのように動くのか？</a></li>
+<li class=widget__item><a class=widget__link href=/posts/payday2/how_to_play_old_version_payday2/>古いバージョンのPAYDAY 2を遊ぶ方法(マルチプレイヤー対応!)</a></li>
+<li class=widget__item><a class=widget__link href=/posts/vrchat/avatardynamics_openbeta/>日本語版 AvatarDynamics オープンベータリリース告知</a></li>
+</ul>
+</div>
+</div>
+<div class="widget-categories widget">
+<h4 class=widget__title>カテゴリー</h4>
+<div class=widget__content>
+<ul class=widget__list>
+<li class=widget__item>
+<a class=widget__link href=/categories/payday-2/>PAYDAY 2</a></li>
+<li class=widget__item>
+<a class=widget__link href=/categories/vrchat/>VRChat</a></li>
+<li class=widget__item>
+<a class=widget__link href=/categories/%E7%BF%BB%E8%A8%B3/>翻訳</a></li>
+<li class=widget__item>
+<a class=widget__link href=/categories/%E9%9B%91%E5%A4%9A/>雑多</a></li>
+</ul>
+</div>
+</div>
+<div class="widget-social widget">
+<h4 class="widget-social__title widget__title">ソーシャル</h4>
+<div class="widget-social__content widget__content">
+<div class="widget-social__item widget__item">
+<a class="widget-social__link widget__link btn" title=Twitter rel="noopener noreferrer" href=https://twitter.com/SzlyNe_ target=_blank><svg class="widget-social__link-icon icon icon-twitter" width="24" height="24" viewBox="0 0 384 312"><path d="m384 36.9c-14.1 6.3-29.3 10.5-45.2 12.4 16.3-9.7 28.8-25.2 34.6-43.6-15.2 9-32.1 15.6-50 19.1-14.4-15.2-34.9-24.8-57.5-24.8-43.5.0-78.8 35.3-78.8 78.8.0 6.2.7 12.2 2 17.9-65.5-3.3-123.5-34.6-162.4-82.3C20 26 16.1 39.6 16.1 54c0 27.3 13.9 51.4 35 65.6-12.9-.4-25.1-4-35.7-9.9v1c0 38.2 27.2 70 63.2 77.2-6.6 1.8-13.6 2.8-20.8 2.8-5.1.0-10-.5-14.8-1.4 10 31.3 39.1 54.1 73.6 54.7-27 21.1-60.9 33.7-97.8 33.7-6.4.0-12.6-.4-18.8-1.1C34.9 299 76.3 312 120.8 312c144.9.0 224.1-120 224.1-224.1.0-3.4-.1-6.8-.2-10.2 15.4-11.1 28.7-25 39.3-40.8z"/></svg>
+<span>Twitter</span>
+</a>
+</div>
+<div class="widget-social__item widget__item">
+<a class="widget-social__link widget__link btn" title=GitHub rel="noopener noreferrer" href=https://github.com/Assault1892 target=_blank><svg class="widget-social__link-icon icon icon-github" width="24" height="24" viewBox="0 0 384 374"><path d="m192 0C85.9.0.0 85.8.0 191.7c0 84.7 55 156.6 131.3 181.9 9.6 1.8 13.1-4.2 13.1-9.2.0-4.6-.2-16.6-.3-32.6-53.4 11.6-64.7-25.7-64.7-25.7-8.7-22.1-21.3-28-21.3-28-17.4-11.9 1.3-11.6 1.3-11.6 19.3 1.4 29.4 19.8 29.4 19.8 17.1 29.3 44.9 20.8 55.9 15.9 1.7-12.4 6.7-20.8 12.2-25.6-42.6-4.8-87.5-21.3-87.5-94.8.0-20.9 7.5-38 19.8-51.4-2-4.9-8.6-24.3 1.9-50.7.0.0 16.1-5.2 52.8 19.7 15.3-4.2 31.7-6.4 48.1-6.5 16.3.1 32.7 2.2 48.1 6.5 36.7-24.8 52.8-19.7 52.8-19.7 10.5 26.4 3.9 45.9 1.9 50.7 12.3 13.4 19.7 30.5 19.7 51.4.0 73.7-44.9 89.9-87.7 94.6 6.9 5.9 13 17.6 13 35.5.0 25.6-.2 46.3-.2 52.6.0 5.1 3.5 11.1 13.2 9.2C329 348.2 384 276.4 384 191.7 384 85.8 298 0 192 0z"/></svg>
+<span>GitHub</span>
+</a>
+</div>
+</div>
+</div>
+</aside>
+</div>
+<footer class=footer>
+<div class="container footer__container flex">
+<div class=footer__copyright>
+&copy; 2022 Assault.
+<span class=footer__copyright-credits>このサイトは <a href=https://gohugo.io/ rel="nofollow noopener" target=_blank>Hugo</a> と <a href=https://github.com/Vimux/Mainroad/ rel="nofollow noopener" target=_blank>Mainroad</a> テーマで生成されています。</span>
+</div>
+</div>
+</footer>
+</div>
+<script async defer src=/js/menu.js></script>
+</body>
+</html>

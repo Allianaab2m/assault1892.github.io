@@ -45,3 +45,8 @@ paginate = 20
     list = "right"
     single = "right"
     widgets = ["recent", "categories", "taglist", "social"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

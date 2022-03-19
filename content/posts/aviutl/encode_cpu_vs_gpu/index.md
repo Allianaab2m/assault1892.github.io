@@ -1,8 +1,8 @@
 ---
 title: "CPUとGPU(NVEnc)でどれほどの差が出るのか？"
 date: 2022-03-18
-categories: ["雑記", "Aviutl"]
-tag: ["雑記"]
+categories: ["雑多", "Aviutl"]
+tag: ["雑多"]
 lead: "「GPUエンコの方が早いけど画質低い」とかよく言われてるけど結局どれほど変わるのかわからないから検証した"
 description: "Aviutlでエンコードする際、CPUとGPUどっちの方が早く、画質が良いのか気になったので検証してみました。参考になるかどうかは知りません"
 ---

@@ -4,6 +4,7 @@ baseURL = "https://assault1892.github.io"
 languageCode = "ja"
 DefaultContentLanguage = "ja"
 HasCJKLanguage = true
+summaryLength = 0
 enableRobotsTXT = true
 
 # ブログのタイトル

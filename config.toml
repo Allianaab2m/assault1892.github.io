@@ -41,6 +41,10 @@ paginate = 20
   twitter = "SzlyNe_"
   github = "Assault1892"
 
+[[Params.widgets.social.custom]]
+  title = "このサイトのリポジトリ"
+  url = "https://github.com/Assault1892/assault1892.github.io"
+
 [Params.sidebar]
     home = "right"
     list = "right"

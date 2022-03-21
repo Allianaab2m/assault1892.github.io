@@ -1,7 +1,7 @@
 ---
 title: "9つの危険なBashコマンド"
 date: 2022-03-21
-categories: ["雑多"]
+categories: ["翻訳"]
 tag: ["雑多"]
 lead: "元ページ: https://dev.to/devmount/9-evil-bash-commands-explained-4k5e"
 description: "9つの危険なコマンド集です。"

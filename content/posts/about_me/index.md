@@ -4,8 +4,8 @@ date: 2022-03-18
 categories: ["雑多"]
 tag: ["雑多"]
 menu: main
-lead: "いわゆる「自己紹介」って奴です よければ見てね"
-description: "なんか書いてあります"
+lead: "いわゆる「自己紹介」って奴です"
+description: "自己紹介的な奴"
 ---
 
 # Ayy 🥴
@@ -17,7 +17,7 @@ description: "なんか書いてあります"
 
 ## お前何が出来んの？何やってたの？
 
-「PAYDAY 2」向け Mod「[Better Assault Indicator](https://modworkshop.net/mod/22712)」「[Meth Helper Updated](https://modworkshop.net/mod/25950)」の翻訳をしました。  
+「PAYDAY 2」向け Mod「[Better Assault Indicator](https://modworkshop.net/mod/22712)」「[Meth Helper Updated](https://modworkshop.net/mod/25950)」「[Extra Heist Info](https://modworkshop.net/mod/31915)」の翻訳をしました。  
 また、「Among Us」を Discord を利用して遊ぶ際に便利な Bot「[AutoMute Us](https://github.com/automuteus/automuteus)」の日本語化をしてい**ましたが、**「AuteMuteUs Premium」の実装に伴い翻訳を中断しました。  
 現在は他の方が翻訳をしているようです。~~途中で投げ出してしまいすみませんでした~~  
 また、音 MAD 制作もしています。[私の Twitter のモーメント](https://twitter.com/i/events/1473523822888243202)に今まで作った音 MAD が置いてあります。よければどうぞ。
@@ -31,7 +31,6 @@ description: "なんか書いてあります"
   - 対人:
     - Krunker.io
     - Rainbow Six Siege
-    - PUBG: BATTLEGROUNDS
     - Splatoon 2
   - 協力:
     - PAYDAY 2
@@ -42,6 +41,7 @@ description: "なんか書いてあります"
 - 音ゲー
   - CHUNITHM
   - Phigros
+  - osu!
 
 ### 他やってる事は？
 
@@ -49,7 +49,7 @@ description: "なんか書いてあります"
 
 ## 環境
 
-- PC: G-Tune E5-D
+- PC: G-Tune E5-D (販売終了 / ゲーミングラップトップ)
   - Windows 10 Home 21H2 64bit
   - AMD Ryzen 5 3500 @ 3.6Ghz
   - DDR4 2667Mhz 16GB (8GB\*2)
@@ -70,9 +70,10 @@ description: "なんか書いてあります"
 - SNS
   - Discord: `Assault#1892`
   - [Twitter](https://twitter.com/SzlyNe_)
+    - サブ垢は[こちら](https://twitter.com/assault_2nd) | ただし知っている人や信頼している人しか通しません
   - [YouTube](https://www.youtube.com/channel/UC2_oHHOyt4-eFFea-2s8k5g)
   - [VRChat](https://vrchat.com/home/user/usr_9dec4a38-a8e0-4b70-bd26-613c5d2ca9cf)
-  - [Speedrun.com](https://www.speedrun.com/user/Assault1892) | 実は `Car Shop: Any Difficulty Solo - Any%` で世界 43 位です。
+  - [Speedrun.com](https://www.speedrun.com/user/Assault1892) | 実は `Car Shop: Any Difficulty Solo - Any%` で世界 44 位です。
 - Game
   - [Steam](https://steamcommunity.com/id/assault9807/)
   - Ubisoft Connect: `Assault.1892`

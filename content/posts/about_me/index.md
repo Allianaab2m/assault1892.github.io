@@ -11,42 +11,42 @@ description: "自己紹介的な奴"
 # Ayy 🥴
 
 あさると (a.k.a Assault, Szlyne...)です。  
-主に「PAYDAY 2」向け Mod の日本語化を行っています。よろしくお願いします。
+VRChat や H3VR を主に遊んでいます。よろしくお願いします。
+
+2022/6/29: Rewrite
 
 ---
 
-## お前何が出来んの？何やってたの？
+## やっていた事
 
 「PAYDAY 2」向け Mod「[Better Assault Indicator](https://modworkshop.net/mod/22712)」「[Meth Helper Updated](https://modworkshop.net/mod/25950)」「[Extra Heist Info](https://modworkshop.net/mod/31915)」の翻訳をしました。  
-最近は「[Beat Saber Modding Group Wiki](https://bsmg.wiki)」の翻訳もしています。  
+「[Beat Saber Modding Group Wiki](https://bsmg.wiki)」の翻訳もしています。  
 また、「Among Us」を Discord を利用して遊ぶ際に便利な Bot「[AutoMute Us](https://github.com/automuteus/automuteus)」の日本語化をしてい**ましたが、**「AuteMuteUs Premium」の実装に伴い翻訳を中断しました。  
 現在は他の方が翻訳をしているようです。~~途中で投げ出してしまいすみませんでした~~  
 また、音 MAD 制作もしています。[私の Twitter のモーメント](https://twitter.com/i/events/1473523822888243202)に今まで作った音 MAD が置いてあります。よければどうぞ。
 
-### 何遊んでんの？
+フロントエンドを稀によく触ります。
+
+### 遊んでいるゲーム
 
 協力型ゲーム(俗に言う Co-op)と MMORPG を遊んでいます。対人型ゲームも遊んでいますが、あまり遊んでいません。
 以下遊んでいるゲーム:
 
 - シューター
   - 対人:
+    - BattleBit Remastered (Playtest)
+    - Escape from Tarkov
     - Krunker.io
     - Rainbow Six Siege
     - Splatoon 2
   - 協力:
-    - PAYDAY 2
+    - Grand Theft Auto V
 - MMORPG
-  - ソウルワーカー
-  - 原神
   - Wynncraft
 - 音ゲー
   - CHUNITHM
   - Phigros
   - osu!
-
-### 他やってる事は？
-
-特にないです（ごみ）
 
 ## 環境
 
@@ -77,5 +77,5 @@ description: "自己紹介的な奴"
   - [Speedrun.com](https://www.speedrun.com/user/Assault1892) | 実は `Car Shop: Any Difficulty Solo - Any%` で世界 46 位です。
 - Game
   - [Steam](https://steamcommunity.com/id/assault9807/)
-  - Ubisoft Connect: `Assault.1892`
+  - Ubisoft Connect: `unkonow.io`
   - Nintendo Switch: `SW-3107-8528-0121`

@@ -16,7 +16,7 @@ paginate = 20
 [Author]
     name = "あさると"
     bio = "PAYDAY2とVRChatを主に遊んでいます / フロントエンドをたまに触る"
-    avatar = "img/avatar.png"
+    avatar = "img/icon.png"
 
 [Params]
     description = "なんか色々書いてます 基本的に翻訳多め たまに何かしらのレビューっぽい物を書く"
